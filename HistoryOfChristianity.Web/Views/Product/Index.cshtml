@@ -1,0 +1,10 @@
+@model IEnumerable<HistoryOfChristianity.Application.DTOs.ProductDto>
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h1>Products</h1>
+@foreach (var product in Model)
+{
+    <div>@product.Name - @product.FormattedPrice</div>
+}

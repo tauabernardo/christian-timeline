@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistoryOfChristianity.Web", "HistoryOfChristianity.Web\HistoryOfChristianity.Web.csproj", "{46F975CE-BFC6-4E79-9117-9205A8A8AD72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistoryOfChristianity.Application", "HistoryOfChristianity.Application\HistoryOfChristianity.Application.csproj", "{4A139573-F034-482A-A7DB-814C5309F201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistoryOfChristianity.Domain", "HistoryOfChristianity.Domain\HistoryOfChristianity.Domain.csproj", "{7ACE1712-CFF6-4165-AF8A-A15589298810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistoryOfChristianity.Infrastructure", "HistoryOfChristianity.Infrastructure\HistoryOfChristianity.Infrastructure.csproj", "{A17AC2F6-88CC-439E-8D32-AE4062AC85A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46F975CE-BFC6-4E79-9117-9205A8A8AD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F975CE-BFC6-4E79-9117-9205A8A8AD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F975CE-BFC6-4E79-9117-9205A8A8AD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F975CE-BFC6-4E79-9117-9205A8A8AD72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A139573-F034-482A-A7DB-814C5309F201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A139573-F034-482A-A7DB-814C5309F201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A139573-F034-482A-A7DB-814C5309F201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A139573-F034-482A-A7DB-814C5309F201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ACE1712-CFF6-4165-AF8A-A15589298810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACE1712-CFF6-4165-AF8A-A15589298810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ACE1712-CFF6-4165-AF8A-A15589298810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ACE1712-CFF6-4165-AF8A-A15589298810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17AC2F6-88CC-439E-8D32-AE4062AC85A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17AC2F6-88CC-439E-8D32-AE4062AC85A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17AC2F6-88CC-439E-8D32-AE4062AC85A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17AC2F6-88CC-439E-8D32-AE4062AC85A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

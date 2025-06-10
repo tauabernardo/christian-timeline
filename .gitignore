@@ -1,0 +1,150 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userprefs
+*.userosscache
+*.sln.docstates
+*.ncrunchsolution
+*.ncrunchproject
+*.vs/
+.vs/
+.vscode/
+*.swp
+*.cache
+*.orig
+
+# Arquivos de build
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+*.msi
+*.cache
+*.log
+*.nupkg
+*.pdb
+*.xml
+
+# Dependências
+[Nn]uget/
+*.nupkg
+packages/
+!packages/repositories.config
+
+# Arquivos de publicação
+publish/
+*.pubxml
+*.publishproj
+
+# Banco de dados
+*.mdf
+*.ldf
+*.sdf
+App_Data/
+*.mdb
+
+# Azure
+*.azurePubxml
+*.pubxml
+*.publishsettings
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.TMP
+*.TEMP
+
+# Logs e diagnósticos
+*.log
+*.log.*
+logs/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Arquivos de configuração sensíveis
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Secret.json
+appsettings.private.json
+secrets.json
+*.secret.config
+connectionstrings.config
+
+# Arquivos do usuário
+_ReSharper.*
+*.resharper
+*.resharper.user
+
+# Arquivos de projeto específicos
+*.csproj.user
+*.csproj.*.user
+*.csproj.VisualStudioAutoClean
+
+# Docker
+docker-compose.override.yml
+docker-compose.vs.debug.yml
+docker-compose.vs.release.yml
+
+# Node.js (se usar frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Frontend (se usar)
+wwwroot/lib/
+dist/
+*.js.map
+*.css.map
+*.bundle.js
+*.bundle.css
+
+# Arquivos de migração (Entity Framework)
+Migrations/
+!Migrations/*.cs
+!Migrations/*.designer.cs
+
+# Arquivos de teste
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Arquivos do Rider
+*.sln.iml
+*.DotSettings
+*.DotSettings.user
+
+# Arquivos do macOS
+.DS_Store
+._*
+
+# Arquivos do Linux/Unix
+*~
+*.swp
+*.swo
+
+# Arquivos do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
