@@ -1,5 +1,7 @@
+using HistoryOfChristianity.Application.DTOs;
+
 namespace HistoryOfChristianity.Application.Services;
 public interface IProductService
 {
-    IEnumerable<ProductDto> GetAllProducts();
+    public IEnumerable<ProductDto> GetAllProducts();
 }

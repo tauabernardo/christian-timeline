@@ -3,6 +3,8 @@ using HistoryOfChristianity.Infrastructure.Repositories;
 using HistoryOfChristianity.Application.Services;
 using HistoryOfChristianity.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using HistoryOfChristianity.Infrastructure.IoC;
+using HistoryOfChristianity.Web.MappingConfig;
 
 var builder = WebApplication.CreateBuilder(args);
 

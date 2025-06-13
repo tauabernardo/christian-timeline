@@ -1,6 +1,5 @@
 using HistoryOfChristianity.Application.DTOs;
 using HistoryOfChristianity.Domain.Interfaces;
-using HistoryOfChristianity.Domain.Entities;
 
 namespace HistoryOfChristianity.Application.Services;
 public class ProductService : IProductService
@@ -13,5 +12,5 @@ public class ProductService : IProductService
             Id = p.Id,
             Name = p.Name,
             FormattedPrice = p.Price.ToString("C")
-        });
+        });   
 }
